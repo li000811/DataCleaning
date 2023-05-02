@@ -105,7 +105,7 @@ FROM PortfolioProject.dbo.HousingDataCleaning
 --SET PropertySplitCity = SUBSTRING(PropertyAddress, CHARINDEX('.', PropertyAddress)+1, LEN(PropertyAddress))
 
 
---change y, n to yes, no in 'SoldAsVacant)
+--change y, n to yes, no in 'SoldAsVacant'
 
 SELECT DISTINCT(SoldAsVacant), COUNT(SoldAsVacant)
 FROM PortfolioProject.dbo.HousingDataCleaning
